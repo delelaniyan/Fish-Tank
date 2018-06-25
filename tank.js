@@ -1,8 +1,8 @@
 function setup() {
   createCanvas(400, 400);
 }
-
-background(89, 216, 255);
+function draw() {
+  
 var drawFish = function(centerX, centerY, bodyColor1, bodyColor2, bodyColor3) {
 var bodyLength = 118;
 var bodyHeight = 74;
@@ -36,4 +36,5 @@ var x = 0;
 while ( x < 417 ) {
     image(bush, x, 333);
     x +=76;
+}
 }
