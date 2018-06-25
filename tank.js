@@ -1,3 +1,7 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
 background(89, 216, 255);
 var drawFish = function(centerX, centerY, bodyColor1, bodyColor2, bodyColor3) {
 var bodyLength = 118;
