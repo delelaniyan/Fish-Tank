@@ -31,7 +31,7 @@ drawFish(112, 61, 100, 100, 206);
 drawFish(123, 265, 109, 34, 37);
 drawFish(262, 257, 90, 300, 30);
 
-var bush = getImage("avatars/leafers-tree");
+var bush = bush.jpg;
 var x = 0;
 while ( x < 417 ) {
     image(bush, x, 333);
